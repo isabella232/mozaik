@@ -1,5 +1,5 @@
 {
-  "name": "@mozaik/ui",
+  "name": "@textile/mozaik-ui",
   "description": "Mozaïk UI",
   "version": "2.0.0-alpha.15",
   "license": "MIT",
@@ -18,17 +18,17 @@
     "immutable": "^3.8.1",
     "lodash": "^4.17.4",
     "lodash-es": "^4.17.4",
-    "prop-types": "^15.5.10",
-    "react-icons": "^2.2.5",
-    "react-redux": "^5.0.5",
+    "prop-types": "^15.6.0",
+    "react-icons": "^2.2.7",
+    "react-redux": "^5.0.6",
     "react-svg-buttons": "^0.4.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "socket.io-client": "^2.0.3",
-    "styled-components": "^2.1.1"
+    "socket.io-client": "^2.0.4",
+    "styled-components": "^2.4.0"
   },
   "peerDependencies": {
-    "react": "^15.6.1"
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "@mozaik/babel-preset": "^1.0.0-alpha.6",
@@ -36,8 +36,8 @@
     "babel-jest": "^20.0.3",
     "cross-env": "^5.0.1",
     "jest": "^20.0.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "scripts": {
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
