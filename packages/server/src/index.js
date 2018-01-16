@@ -51,6 +51,7 @@ exports.configureFromFile = (configurationPath, watch = true) => {
 
 /**
  * @param {Express} [app]
+ * @returns {SocketIO}
  */
 exports.start = _app => {
     if (!configuration) {
@@ -108,6 +109,8 @@ exports.start = _app => {
             )
         )
     })
+
+    return socket
 }
 
 /**
